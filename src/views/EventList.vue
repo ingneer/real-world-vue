@@ -1,3 +1,3 @@
 <template>
-  <h1>List Eventst</h1>
+  <h1>List Events</h1>
 </template>
