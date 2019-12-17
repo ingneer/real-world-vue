@@ -2,7 +2,7 @@
   <div id="app">
     <div id="nav">
       <router-link to="/">Events</router-link> |
-      <router-link to="/create">Create Event</router-link>
+      <router-link to="/event/create">Create Event</router-link>
     </div>
     <router-view />
   </div>
