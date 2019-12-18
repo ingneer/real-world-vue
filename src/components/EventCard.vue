@@ -7,7 +7,7 @@
       <span class="eyebrow">@ {{ event.time }} on {{ event.date }}</span>
       <h4 class="title">{{ event.title }}</h4>
       <BaseIcon name="users" width="48" height="48">
-        {{ event.atendees.length }} attending
+        {{ event.attendees.length }} attending
       </BaseIcon>
     </div>
   </router-link>
@@ -15,20 +15,8 @@
 
 <script>
 export default {
-  data() {
-    return {
-      event: {
-        id: 1,
-        title: 'Park Cleanup',
-        date: 'Tues Dec 17, 2019',
-        time: '6:00am',
-        atendees: [
-          { id: 'rock123', name: 'Iman Alomerovic' },
-          { id: 'and456', name: 'Mihreta Alomerovic' },
-          { id: 'roll789', name: 'Zlatko Alomerovic' }
-        ]
-      }
-    }
+  props: {
+    event: Object
   }
 }
 </script>
