@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1>List Events</h1>
-
+    <BaseIcon />
     <EventCard />
   </div>
 </template>
